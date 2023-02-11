@@ -1,11 +1,17 @@
 # microservice-with--springboot-reactjs
 
 ABSTRACT
+
+
 Asset Management System (AMS) is a microservice-based project designed to improve the management of assets, including motorcycles, phones, houses, cars, and products. The project uses ReactJS and SpringBoot technologies to provide a centralized platform for managing assets and tracking the total number of items in real-time. The Asset management system (AMS) project is divided into five separate services, aimed at simplifying the asset management process and increasing efficiency. The project scope includes the design, development, and deployment of the microservice platform, along with extensive testing to ensure its robustness and scalability.
 
 
 CHAPTER ONE
+
+
 1.0 Introduction
+
+
 Asset management is a critical function for the organizations as it enables them to effectively track, maintain, and utilize their assets over time (Cairncross, 2018). Assets can range from tangible items such as buildings, vehicles, or equipment, to intangible assets such as intellectual property or software (Katsikas & Mpitziopoulos, 2018). Effective asset management is vital for organizations to optimize their investments and ensure the long-term viability of their assets (Chang et al., 2019). The demand for real-time insights and efficient asset management has highlighted the limitations of traditional asset management systems, leading to the development of more advanced asset management systems.
 Traditionally, organizations have relied on the use of manual tracking systems or spreadsheets to manage their assets. However, these methods have become outdated as organizations face a growing number of assets and an increasing demand for real-time insights into asset utilization (Cairncross, 2018). This has led to the development of more and advanced asset management systems that leverage technology to provide a centralized view of assets, automate processes, and provide real-time insights into asset utilization (Katsikas & Mpitziopoulos, 2018).
 The use of microservices-based architecture has become a popular trend in  the recent years due to its ability to provide scalability and flexibility in application development (Li et al., 2020). Microservices-based architecture allows organizations to develop and deploy applications in a decentralized manner, where each microservice can be developed and deployed independently (Newman, 2015). ReactJS and Spring Boot are two popular technologies that are commonly used to build modern web applications, including microservices-based asset management systems (Li & Zhang, 2018).
@@ -21,6 +27,8 @@ The scope of this project includes the development of five microservices: motorc
  
 
 CHAPTER TWO
+
+
 2.0 Asset Management system: microservice-based approach
 Asset Management System refers to the overall system that is being developed to manage various assets such as motorcycles, phones, houses, cars, and products. This system will allow the user to keep track of the assets, including information about their location, status, and any maintenance or repair requirements (Zhang et al., 2020).
 2.1 Microservice-based system
@@ -36,6 +44,9 @@ Finally, the communication between the microservices is a crucial aspect of the 
  
 
 CHAPTER THREE
+
+
+
 3.0 Interpretation and analysis
 The "Asset Management System: Microservice-based Approach" project aims to provide a comprehensive solution for managing various assets, including motorcycles, phones, houses, cars, and products. The use of microservice architecture is a key aspect of the project, providing several benefits and enabling the development of a reliable and scalable system.
 Microservice architecture involves dividing a large application into smaller, independent services that work together to achieve a common goal. This approach provides several benefits, including faster development and deployment times, improved scalability, and better fault tolerance.
@@ -52,6 +63,8 @@ Despite these challenges, the benefits of using microservice architecture in the
 
 
 CHAPTER FOUR
+
+
 4.0 Gaps and skills
 Gaps in skills refer to the differences between the skills that a person currently possesses and the skills that they need in order to achieve their desired goals or perform their job effectively. These gaps can arise due to a variety of reasons, such as changes in technology, shifts in job requirements, or a lack of opportunity for professional development.
 In the context of a project, gaps in skills can impede progress and lead to suboptimal outcomes. For example, a team member may lack the technical skills needed to effectively use a certain software or tool, leading to delays in project completion. Alternatively, a team may not have the right mix of soft skills, such as communication or collaboration, which can negatively impact the overall effectiveness of the team.
