@@ -1,0 +1,19 @@
+.micro-desc {
+    width: 50%;
+    height: auto;
+    margin: 1 auto;
+    justify-content: baseline;
+    font-size: medium;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+}
+.service-content{
+    width: 100%;
+    height: auto;
+    /* justify-content: center; */
+    display: contents;
+}
+.service-content:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,8 @@
+.image{
+    width: 20%;
+    height: auto;
+    margin-right: 18%;
+    border: 2px solid;
+    border-radius: 5%;
+    display: flex;
+}
