@@ -2,19 +2,19 @@
     {
         "id":"1sd",
         "name":"Three Floor",
-        "desc":"High quality",
+        "description":"High quality",
         "price":"1230000"
     },
     {
         "id":"2ba",
         "name":"Three room, two store,cooking room",
-        "desc":"Modern house",
+        "description":"Modern house",
        "price":"70012000"
     },
     {
         "id":"32pxd",
         "name":"NYUMBA YA KISUKUMA",
-        "desc":"New sukuma house in town",
+        "description":"New sukuma house in town",
         "price":"99900000"
     }
 ]

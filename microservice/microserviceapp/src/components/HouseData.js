@@ -1,10 +1,11 @@
 import React,{useState,useEffect} from 'react'
 import axios from "axios"
 import img from '../img/house/house1.PNG'
+import house from '../components/assets/house.json'
 import './housedata.css'
 import { useStateValue } from '../StateProvider';
 
-function HouseData({id, name, desc, price}) {
+function HouseData({id, name, description, price}) {
 
     const [data, setData] = useState([]);
 
@@ -26,7 +27,7 @@ function HouseData({id, name, desc, price}) {
             item: {
                 id:id,
                 name:name,
-                desc:desc,
+                description:description,
                 price:price,
             },
         });
@@ -50,7 +51,7 @@ function HouseData({id, name, desc, price}) {
         </thead>
         <tbody>
                 {
-                data.map(item=>{
+                house.map(item=>{
                     return(
                     <tr className='content'>
                         <th scope="row">{item.id}</th> 

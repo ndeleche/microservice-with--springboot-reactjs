@@ -22,7 +22,7 @@ function House() {
     },
     {
       title:"Descriptions",
-      dataIndex:"desc",
+      dataIndex:"description",
       key:"desc"
   },
     {

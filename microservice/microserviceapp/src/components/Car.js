@@ -2,7 +2,7 @@ import { Card, Descriptions, List, Table } from 'antd'
 import React ,{ useState, useEffect} from 'react'
 import axios from 'axios'
 import { useNavigate } from 'react-router-dom'
-import car from '../components/assets/car.json'
+import car from '../components/assets/car.json' 
 
 function Car() {
 
@@ -46,7 +46,7 @@ function Car() {
   return (
     <Card title="Car Type">
       <Table
-          dataSource={data}
+          dataSource={car}
           columns={columns}
           rowKey="id"
           onRow={(productItem)=>({

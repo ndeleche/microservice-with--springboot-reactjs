@@ -1,7 +1,6 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
-import SiderBar from './components/SideBar';
+//  import 'bootstrap/dist/css/bootstrap.min.css';
+
 import Product from './components/product/Product';
 import Side from './components/product/Side';
 import House from './components/House';
@@ -15,9 +14,7 @@ import PhoneDescription from './components/PhoneDescriptions';
 import Home from './Home';
 import ServiceList from './components/ServiceList';
 import HouseData from './components/HouseData';
-import AddEdit from './components/AddEdit';
 import Motorcycle from './components/product/Motorcycle';
-import Housing from './components/Housing';
 import Store from './connector/Store';
 import Total from './connector/Total';
 import ProductItem from './components/product/ProductItem';
@@ -35,8 +32,7 @@ function App() {
          <Routes>
            <Route path="/" element={ <Home />} /> 
            <Route path="productItem" element={ <ProductItem />} /> 
-           <Route path="house" element={ <House />} /> 
-           <Route path="housing" element={ <Housing />} /> 
+           <Route path="house" element={ <House />} />  
            <Route path="house/:id" element={ <HouseData />} /> 
            <Route path="product" element={ <Product />} />  
            <Route path="motorcycle" element={ <Motorcycle />} /> 
@@ -46,14 +42,14 @@ function App() {
            <Route path="car/:id" element={ <CarDescription />} /> 
            <Route path=":id" element={ <ServiceList />} /> 
            <Route path="phone/:id" element={ <PhoneDescription />} /> 
-           <Route path="add" element={ <AddEdit />} /> 
+    
            <Route path="store" element={ <Store />} /> 
             
          </Routes>
          
         </Content>
        
-        <Footer className='text-center italic'>reseived by @MzumbeIT Programer Group</Footer>
+        <Footer className='text-center italic'>RIGHTS RESERVED BY PROJECT 17</Footer>
       </Layout>
     </Layout>
       

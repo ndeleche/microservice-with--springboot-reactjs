@@ -7,6 +7,7 @@ import { useStateValue } from '../StateProvider'
 import image from '../img/house/house1.PNG'
 import CarDescription from '../components/CarDescription';
 import Total from './Total';
+import Product from '../components/product/Product'
 
 
 function Store() {
@@ -15,6 +16,7 @@ function Store() {
 
   return (
     <Card title ="Store item for delivery">
+      <Product />
       {
         basket.map(item =>(
           <Total 

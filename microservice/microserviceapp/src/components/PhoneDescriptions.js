@@ -1,7 +1,7 @@
 import { Card, List,Image } from 'antd'
 import React, { useState } from 'react';
 import './phone.css'
-import car from "../components/assets/car.json"
+import phone from "../components/assets/phone.json"
 import image from "../img/phone/pexels-hammad-khalid-1786433.jpg"
 import image1 from "../img/phone/pexels-jessica-lewis-creative-583842.jpg"
 import image2 from "../img/phone/pexels-matheus-bertelli-799443.jpg"
@@ -32,17 +32,19 @@ function PhoneDescription(id,name,desc,imag,price) {
 
     
   return (
-    <Card title={`Car descriptions`}>
+    <Card title={`Phone descriptions`}>
         <List
-        dataSource={car}
+        dataSource={phone}
         renderItem={(item)=>{
             return(
                 <List.Item>
-                    
-                    <div>{item.desc}</div>
+                    <div>{item.id}</div>
+                    <div>{item.name}</div>
+                    <div>{item.description}</div>
                     <div className='image '>
                        <Image src={pictures[3]} once preview={false}/>
                     </div>
+                    <div>{item.price}</div>
                     <div className='btn btn-primary w-10 h-100 mx-10' onClick={addToBasket}>add to store</div>
                 </List.Item>
             )

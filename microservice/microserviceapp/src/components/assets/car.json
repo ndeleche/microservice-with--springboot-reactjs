@@ -2,19 +2,19 @@
     {
         "id":"12fsd",
         "name":"Toyota",
-        "desc":"High classic with high speed",
+        "description":"High classic with high speed",
         "price":"1230000"
     },
     {
         "id":"22tsw",
         "name":"Land cluiser",
-        "desc":"High classic with high speed",
+        "description":"High classic with high speed",
        "price":"20012000"
     },
     {
         "id":"32pxd",
         "name":"clugar",
-        "desc":"New modern with high speed and long distance capacity",
+        "description":"New modern with high speed and long distance capacity",
         "price":"78900000"
     }
 ]
